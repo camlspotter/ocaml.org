@@ -22,10 +22,10 @@
             <div class="row">
                 <section class="span4 home-feature">
                     <a href="/learn/">
-                        <img src="/img/learn-large.png" alt="Learn">
+                        <img src="/img/learn-large.png" alt="まなぶ">
                     </a>
-                    <h1><a href="/learn/">Learn</a></h1>
-                    <p><a href="/learn/description.html">OCaml とは</a>、どんな<a href="/learn/success.html">ユーザー</a>がいて、<a href="learn/taste.html">どんな言語</a>なのか、<a href="/learn/tutorials/">チュートリアル</a> や <a href="/learn/">その他の情報</a></p>
+                    <h1><a href="/learn/">まなぶ</a></h1>
+                    <p><a href="/learn/description.ja.html">OCamlとは?</a>、どんな<a href="/learn/success.html">ユーザー</a>がいて、<a href="learn/taste.html">どんな言語</a>なのか、<a href="/learn/tutorials/">チュートリアル</a>、<a href="/learn/">などなど…</a></p>
                 </section>
                 <section class="span4 home-feature">
                     <a href="/docs/">
@@ -52,7 +52,7 @@
                         <img src="/img/community-large.png" alt="コミュニティ">
                     </a>
                     <h1><a href="/community/">コミュニティ</a></h1>
-                    <p><a href="/community/planet/">ニューストピック</a>、<a href="/community/mailing_lists.html">メーリングリスト</a>、<a href="/community/support.html">サポート</a>、OCaml に関する<a href="/community/#ocaml-around-web">ネットでの情報</a></p>
+                    <p>OCamlに関する<a href="/community/planet/">ニューストピック</a>、<a href="/community/mailing_lists.html">メーリングリスト</a>、<a href="/community/support.html">サポート</a>、<a href="/community/#ocaml-around-web">ネットでの情報</a></p>
                 </section>
             </div>
             <div id="home-learn">
@@ -65,7 +65,7 @@
         <section id="home-news" class="span4 condensed">
             <h1 class="ruled">
                 <a href="/community/planet/"
-				title="See planet posts">News</a>
+				title="See planet posts">ニュース</a>
                 <a href="http://planet.ocaml.org/rss20.xml"
 				title="Planet RSS feed"
 				><img src="/img/rss.png" alt="RSS"></a>
@@ -81,18 +81,18 @@
 			</article></li>
 	        </ul>
             {{! cmd script/rss2html -n 5 --headlines http://planet.ocaml.org/rss20.xml !}}
-            <p><a href="community/planet/">More...</a></p>
+            <p><a href="community/planet/">もっと見る…</a></p>
         </section>
     </div>
     <div class="row">
         <section class="span6 condensed">
-            <h1><a href="learn/taste.html">A taste of OCaml</a></h1>
+            <h1><a href="learn/taste.html">OCamlの味わい</a></h1>
             ((! cat template/tryocaml.html !))
             ((! input template/front_code_snippet.html !))
-            <p>OCaml is a lot more powerful than this simple example shows. See <a href="/learn/taste.html">more examples</a>!</p>
+            <p>この簡単な例にとどまらず、OCamlは<a href="/learn/taste.html">もっともっと強力</a>です！</p>
         </section>
         <section class="span6 condensed">
-            <h1><a href='http://opam.ocaml.org/pkg/index-date.html'>Packages</a></h1>
+            <h1><a href='http://opam.ocaml.org/pkg/index-date.html'>パッケージ</a></h1>
             ((! input template/front_package.mpp !))
         </section>
     </div>
