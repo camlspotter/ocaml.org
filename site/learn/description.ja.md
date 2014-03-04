@@ -3,17 +3,31 @@
 # OCamlとは?
 *目次*
 
-**OCaml** is a general purpose industrial-strength programming language
-with an emphasis on expressiveness and safety. Developed for more than
+**OCaml**は表現力と安全性の高さに重きがおかれた産業レベルの汎用プログラミング言語です。
+<!--
+is a general purpose industrial-strength programming language
+with an emphasis on expressiveness and safety.-->
+20年以上に渡って [Inria](http://www.inria.fr/en) の研究者達によって開発されており、
+最も優れた型システムの一つを備え、関数型、手続き型、オブジェクト指向をサポートすることで、
+フレキシブルかつ信頼性の高いソフトウェアを簡単に開発することができます。
+<!--
+Developed for more than
 20 years at [Inria](http://www.inria.fr/en) by a group of leading
 researchers, it benefits from one of the most advanced type systems and
 supports functional, imperative and object-oriented styles of
 programming which ease the development of flexible and reliable
-software. Used in environments where [a single mistake can cost
+software. -->
+OCamlは[ほんの些細な間違いが何百万ドルもの損失を引き起こしかねない](companies.html)
+クリティカルかつスピードを必要とする環境で使われてきており、また、
+コミュニティ活動による[豊富なライブラリ](libraries.html)の開発や、
+OCamlユーザーのサポートも活発に行われています。
+<!--
+Used in environments where [a single mistake can cost
 millions](companies.html) and speed matters, it is supported by an
 active community that developed a [rich set of
 libraries](libraries.html) and will help you to make the most of OCaml
 possibilities...
+-->
 
 OCaml is a modern, high-level programming language with many useful
 features. See “[A History of OCaml](history.html)” for an account of the

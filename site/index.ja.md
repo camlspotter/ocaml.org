@@ -4,7 +4,7 @@
 <header id="home-header">
     <div class="container">
         <div class="row">
-            <h1 class="span9">OCaml は、関数型、手続き型、オブジェクト志向を備えた 強力なプログラミング言語です</h1>
+            <h1 class="span9">OCaml は、関数型、手続き型、オブジェクト指向を備えた 強力なプログラミング言語です</h1>
             <div class="span3">
                 <div>
                 <a class="btn" href="/docs/install.html">OCamlを<br/>ダウンロード</a>
